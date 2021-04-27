@@ -1,0 +1,384 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+}
+.testred{
+    color: crimson;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2,h2,h3{
+    margin-bottom: 20px;
+    color:#001a4d;
+}
+/*HEADER*/
+#header{
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cov{
+    position: relative;
+    bottom: 10px;
+    font-weight: bolder;
+    letter-spacing: 0.1vh;
+    font-size: 30px;
+}
+/*Navigation*/
+header nav{
+    width:70%;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 60px;
+    list-style: none;
+}
+header nav ul li a{
+    color: black;
+    font-size: 16px;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid orangered;
+}
+/*Main*/
+.row{
+    display: flex;
+    /*justify-content: space-evenly;*/
+}
+.firstcolumn{
+    width:50%;
+}
+.secondcolumn{
+    width: 50%;
+}
+/*First Row*/
+.title1{
+    color: #00264d;
+    font-family: "Jazz LET", fantasy ,Courier, monospace,"Andale Mono", monospace;
+    font-size: 50px;
+    word-spacing: 5px;
+}
+#firstrow p{
+    width: 40%;
+    font-size: 15px;
+}
+#firstcolumn{
+    padding-top: 100px;
+    margin-left: 10%;
+}
+/*Buttons*/
+#button{
+    margin-top: 50px;
+}
+.button-plus{
+    border: 5px solid #cc0000;
+    padding: 10px 25px;
+    border-radius: 23px 23px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#button i{
+    color: rgb(0, 183, 255);
+    font-size: 50px;
+    position: relative;
+    top: 2.5vh;
+} 
+/*Symptomes*/
+#sypmtomes{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100px;
+}
+#spreads h2{
+    font-size: 40px;
+    padding-left: 80px;
+}
+#spreads{
+    width: 55%;
+    margin-left: 25%;
+    margin-bottom: 60px;
+}
+#spreads p{
+    text-align: center;
+}
+#secondrow{
+    justify-content: space-around;
+}
+.item1 img{
+    width: 40px; 
+}
+.items{
+    width: 30%;
+    text-align: justify;
+}
+.items img{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.item2 img{
+    width: 25px;
+}
+/*Coronavirus Symptomns*/
+.row3{
+    padding:60px 5% 60px 10%;
+    background-color: #fee9e6;
+    margin:100px 0;
+}
+.row3 img{
+    margin-right: 10%;
+}
+.soc{
+  margin: 0 200px;
+}
+.soc p{
+    margin-bottom: 14px;
+}
+.soc ul{
+    display: flex;
+    justify-content: space-between  ;
+}
+.soc ul li::before{
+    content: "";
+    padding-right: 8px;
+    color: blue;
+}
+/*Clean your Hands*/
+.steps{
+    width: 50%;
+    margin-left: 20%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.textclean{
+    width: 34%;
+    margin-top: 90px;
+    margin-right: 10%;
+}
+.textclean h3{
+    position: relative;
+    left: 2vw;
+}
+.textclean ul li,.Avoid ul li{
+    margin-top: 30px;
+}
+#watch-tutorials{
+    border: 5px solid darkblue;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 140, 255, 0.602);
+    border-radius: 23px 23px;
+    margin:30px 0 0 30px;
+}
+.clean{
+    margin-bottom: 100px;
+    padding-left: 10%;
+}
+
+/*Avoid */
+.avoidg{
+    padding-left: 10%;
+    margin: 80px;
+}
+.avoidg img{
+    width: 120%;
+}
+.Avoid{
+   width: 25%; 
+   margin:70px 0 0 10%;
+}
+.buttonwatcht{
+    border: 5px solid #cc0000;
+    padding: 12px 28px;
+    border-radius: 23px 23px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: red;
+    margin: 30px 0 0 30px;
+    font-weight: bold;
+}
+.Avoid h3{
+    margin-left: 30px;
+}
+
+/*Steps Protects*/
+.step-protect{
+    background-color: #e6faff;
+    padding: 60px 10% 60px 15%;
+    margin-bottom: 50px;
+}
+.step-protect h2{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.step-protect img{
+    width: 50px;
+    margin-bottom: 14px;
+}
+.step-protecttext div{
+    margin-right: 8%;
+}
+.step-protecttext .img1{
+   width: 75px;
+   margin-bottom: 24px;
+}
+.step-protecttext .img4{
+    margin-bottom: 23px;
+}
+.step-protecttext p{
+    margin-top: 20px;
+}
+.learn-more{
+    margin-top: 30px;
+}
+.learn-more a{
+    color: inherit;
+}
+.learn-more a:hover{
+    color: orangered;
+}
+
+/* Confirmed cases */
+
+#world h1{
+    text-align: center;
+    color:#001a4d;
+    font-size: 35px;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+.world-case img{
+    width: 80%;
+    margin-left: 10%;
+}
+#stats{
+    width: 30%;
+}
+.statsdiv{
+    display: flex;
+    margin-bottom: 2vh;;
+}
+.block1{
+    width: 1vw;
+    height: 26vh;
+    background-color:#000099;
+}
+.block2{
+    width: 20vw;
+    height: 24vh;
+    background-color: #e6faff;
+    padding:2vh 0 0 2vw;
+}
+.block12{
+    width: 1vw;
+    height: 26vh;
+    background-color:orangered;
+}
+.block21{
+    width: 20vw;
+    height: 24vh;
+    background-color: #fee9e6;
+    padding:2vh 0 0 2vw;
+}
+.block2 h3,.block21 h3{
+    font-size:xx-large ;
+}
+.block2 h4,.block21 h4{
+    margin-bottom: 6vh;
+}
+.block2 p,.block21 p{
+    font-size:x-small ;
+    opacity: 0.4;
+}
+/* Footer */
+.footersalmon{
+    background-color: #fee9e6;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.footerow{    
+    padding: 10vh 0;    
+    margin-top: 10vh;
+}
+
+.get{
+    border: 3px solid #cc0000;
+    padding: 10px 25px;
+    border-radius: 23px 23px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff6633;
+    margin: 30px 0 0 26vw;
+    position: relative;
+    top: 5vh;
+}
+
+#fleche{
+    font-size: 60px;
+    color: orangered;
+    position: relative;
+    top: 4vh;
+}
+.fa-circle{
+    color: orangered;
+    font-size: 30px;
+    margin-left: 1.3vw;
+    margin-bottom: 2vh;
+}
+#copyright{
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    background-color:#00004d;
+    padding-top: 15px;
+}
+.navfooter{
+    padding-top: 2vh;
+}
+.navfooter nav{
+    margin-left: 10vw;
+    position: relative;
+    top: 1.5vh;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 2vw;
+}
+nav ul li a{
+    color: inherit;
+    opacity: 0.7;
+}
+#icone{
+    margin-left: 15vw;
+    padding-top: 1vh;
+}
+#icone i{
+    margin-left: 3vh;
+}
+
+/*Media Queries*/
+@media all and (max-width: 1024px){
+    #firstrow{
+       display: block;
+    }
+    .secondcolumn img{
+        display: none;
+    }
+    .firstcolumn{
+       width: 100vw;
+    }
+}
